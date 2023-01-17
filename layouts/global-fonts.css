@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --White : #fff;
+    --DarkBlue : #13005A;
+    --Navyblue : #00337C;
+    --SkyBlue: #1C82AD;
+    --Hashgreen: #03C988;
+    --smokeGrey: #eee;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 42px;
+    margin: 20px 0px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 36px;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 20px 0px;
+    line-height: 32px;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 20px 0px;
+    line-height: 26px;
+}
+
+a,
+p {
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+a {
+    color: var(--White);
+    background: var(--DarkBlue);
+    padding: 10px 25px;
+    margin: 0 10px;
+    width: max-content;
+    border-radius: 8px;
+}
+a:hover{
+    background-color: var(--Navyblue);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0 var(--Navyblue);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 20px;
+}
